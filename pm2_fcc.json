@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "fcc",
+    "script": "server.js",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "cwd": "/var/www/html/_nodejs/fcc/timestamp",
+    "env": {
+      "NODE_ENV":"production",
+      "MONGO_URL": "",
+      "ROOT_URL": "http://fcc.local",
+      "PORT": "3003",
+      "METEOR_SETTINGS": {}
+    }
+  }]
+}
